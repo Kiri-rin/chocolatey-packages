@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>miranda-ng</id>
+    <title>Miranda NG</title>
+    <version>0.95.4</version>
+    <authors>Miranda NG Team</authors>
+    <summary>Miranda NG is a multi-protocol instant messaging client for Windows</summary>
+    <description>Miranda NG is a successor of a popular multi-protocol instant messaging client for Windows - Miranda IM. Very light on system resources and extremely fast.</description>
+    <tags>miranda-ng im messenger miranda icq chat im client msn aim facebook gadu-gadu iax irc jabber yahoo</tags>
+    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+    <projectUrl>http://www.miranda-ng.org/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/Kiri-rin/chocolatey-packages/master/miranda-ng/miranda-ng.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
