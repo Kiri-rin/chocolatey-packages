@@ -1,16 +1,12 @@
-﻿$packageArgs = @{
-  packageName   = 'miranda-ng'
-  fileType      = 'exe'
-  validExitCodes= @(0)
-  unpath        = "$Env:ProgramFiles\Miranda NG\Uninstall\unins000.exe"
-  silentArgs    = '/verysilent'
-}
+﻿$packageName   = 'miranda-ng'
+$fileType      = 'exe'
+$silentArgs    = '/verysilent'
+$file          = "$env:ProgramFiles\Miranda NG\Uninstall\unins000.exe"
+$validExitCodes= @(0)
 
 try {
-  Uninstall-ChocolateyPackage @packageArgs
-  Write-ChocolateySuccess $packageName
+  Uninstall-ChocolateyPackage $packageName $fileType $silentArgs $file $validExitCodes
 } 
 catch {
-  Write-ChocolateyFailure $packageName $($_.Exception.Message)
-  throw
+  throw $_.Exception
 }
