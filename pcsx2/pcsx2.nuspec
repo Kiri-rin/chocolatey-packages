@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pcsx2</id>
+    <title>PCSX2</title>
+    <version>1.4.0</version>
+    <authors>arcum42, avih, gregory, pseudonym, rama, Refraction</authors>
+    <summary>PCSX2 is an open source Playstation 2 emulator</summary>
+    <description>PCSX2 is an open source Playstation 2 emulator. Its purpose is to mimic the the PS2 hardware, using a combination of MIPS CPU Interpreters, Recompilers and a Virtual Machine which manages hardware states and PS2 system memory.</description>
+    <tags>pcsx2 ps2 playstation emulator games</tags>
+    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+	<projectUrl>http://pcsx2.net/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/Kiri-rin/chocolatey-packages/master/pcsx2/pcsx2.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
