@@ -11,7 +11,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>PCSX2 is an open source Playstation 2 emulator. Its purpose is to mimic the the PS2 hardware, using a combination of MIPS CPU Interpreters, Recompilers and a Virtual Machine which manages hardware states and PS2 system memory.</description>
         <summary>PCSX2 is an open source Playstation 2 emulator</summary>
-        <tags>pcsx2 ps2 playstation emulator games</tags>
+        <tags>pcsx2 ps2 playstation emulator games admin</tags>
         <dependencies>
             <dependency id="vcredist2015" />
         </dependencies>
