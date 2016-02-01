@@ -5,4 +5,4 @@ Install: ```choco install miranda-ng```
 
 PCSX2 - http://pcsx2.net/
 
-Install: ```choco install pcsx2 -version 1.4.0```
+Install: ```choco install pcsx2```
