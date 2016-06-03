@@ -1,7 +1,7 @@
 ﻿$packageArgs = @{
   packageName   = 'pcsx2'
   fileType      = 'exe'
-  url           = 'http://pcsx2.net/download/releases/windows/send/40-windows/118-pcsx2-1-4-0-setup.html'
+  url           = 'https://github.com/Kiri-rin/chocolatey-packages/raw/master/pcsx2/bin/pcsx2-1.4.0-setup.exe'
   silentArgs    = '/S'
 }
 
