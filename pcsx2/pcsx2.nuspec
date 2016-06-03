@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
         <id>pcsx2</id>
-        <version>1.4.0</version>
+        <version>1.4.0.20160603</version>
         <title>PCSX2</title>
         <authors>arcum42,avih,gregory,pseudonym,rama,Refraction</authors>
         <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
