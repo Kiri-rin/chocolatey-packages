@@ -7,11 +7,16 @@
         <authors>arcum42,avih,gregory,pseudonym,rama,Refraction</authors>
         <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
         <projectUrl>http://pcsx2.net/</projectUrl>
-        <iconUrl>http://cdn.rawgit.com/Kiri-rin/chocolatey-packages/master/pcsx2/pcsx2.png</iconUrl>
+        <iconUrl>http://cdn.rawgit.com/hey-red/chocolatey-packages/master/pcsx2/pcsx2.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>PCSX2 is an open source Playstation 2 emulator. Its purpose is to mimic the the PS2 hardware, using a combination of MIPS CPU Interpreters, Recompilers and a Virtual Machine which manages hardware states and PS2 system memory.</description>
         <summary>PCSX2 is an open source Playstation 2 emulator</summary>
         <tags>pcsx2 ps2 playstation emulator games admin</tags>
+		<projectSourceUrl>https://github.com/PCSX2/pcsx2</projectSourceUrl>
+		<bugTrackerUrl>https://github.com/PCSX2/pcsx2/issues</bugTrackerUrl>
+		<docsUrl>http://wiki.pcsx2.net/index.php/PCSX2_Documentation</docsUrl>
+		<packageSourceUrl>https://github.com/hey-red/chocolatey-packages</packageSourceUrl>
+		<owners>nep-nep</owners>
         <dependencies>
             <dependency id="vcredist2015" />
         </dependencies>
