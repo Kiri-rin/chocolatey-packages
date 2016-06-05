@@ -8,9 +8,9 @@
     <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
     <projectUrl>http://pcsx2.net/</projectUrl>
     <projectSourceUrl>https://github.com/PCSX2/pcsx2</projectSourceUrl>
-		<bugTrackerUrl>https://github.com/PCSX2/pcsx2/issues</bugTrackerUrl>
-		<docsUrl>http://wiki.pcsx2.net/index.php/PCSX2_Documentation</docsUrl>
-		<packageSourceUrl>https://github.com/hey-red/chocolatey-packages</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/PCSX2/pcsx2/issues</bugTrackerUrl>
+    <docsUrl>http://wiki.pcsx2.net/index.php/PCSX2_Documentation</docsUrl>
+    <packageSourceUrl>https://github.com/hey-red/chocolatey-packages</packageSourceUrl>
     <owners>nep-nep</owners>
     <iconUrl>http://cdn.rawgit.com/hey-red/chocolatey-packages/master/pcsx2/pcsx2.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
