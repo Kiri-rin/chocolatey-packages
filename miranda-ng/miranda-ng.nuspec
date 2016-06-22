@@ -17,6 +17,9 @@
     <description>Miranda NG is a successor of a popular multi-protocol instant messaging client for Windows - Miranda IM. Very light on system resources and extremely fast.</description>
     <summary>Miranda NG is a multi-protocol instant messaging client for Windows</summary>
     <tags>miranda-ng im messenger miranda icq chat im client msn aim facebook gadu-gadu iax irc jabber yahoo</tags>
+    <dependencies>
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
