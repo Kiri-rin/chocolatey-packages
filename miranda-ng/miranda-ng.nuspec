@@ -1,25 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>miranda-ng</id>
     <title>Miranda NG</title>
-    <version>0.95.5</version>
+    <version>0.95.7</version>
     <authors>Miranda NG Team</authors>
     <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
     <projectUrl>http://www.miranda-ng.org/</projectUrl>
-    <projectSourceUrl>http://svn.miranda-ng.org/main/trunk/</projectSourceUrl>
+    <projectSourceUrl>https://github.com/miranda-ng/miranda-ng</projectSourceUrl>
     <bugTrackerUrl>http://trac.miranda-ng.org/</bugTrackerUrl>
     <docsUrl>http://wiki.miranda-ng.org/index.php?title=Main_Page</docsUrl>
     <packageSourceUrl>https://github.com/hey-red/chocolatey-packages</packageSourceUrl>
     <owners>nep-nep</owners>
-    <iconUrl>http://cdn.rawgit.com/Kiri-rin/chocolatey-packages/master/miranda-ng/miranda-ng.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/hey-red/chocolatey-packages/master/miranda-ng/miranda-ng.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Miranda NG is a successor of a popular multi-protocol instant messaging client for Windows - Miranda IM. Very light on system resources and extremely fast.</description>
     <summary>Miranda NG is a multi-protocol instant messaging client for Windows</summary>
     <tags>miranda-ng im messenger miranda icq chat im client msn aim facebook gadu-gadu iax irc jabber yahoo</tags>
-    <dependencies>
-      <dependency id="chocolatey-uninstall.extension" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
